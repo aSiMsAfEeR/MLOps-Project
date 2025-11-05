@@ -1,0 +1,54 @@
+2025-11-04 12:17:13,405 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:17:13,406 - __main__ - INFO - Data Ingestion started with {self.bucket_name} and file is {self.file_name}
+2025-11-04 12:17:13,406 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:17:25,587 - __main__ - ERROR - Error occurred while downloading the csv file
+2025-11-04 12:17:25,587 - __main__ - INFO - Data Ingestion process ended
+2025-11-04 12:17:35,620 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:17:35,621 - __main__ - INFO - Data Ingestion started with {self.bucket_name} and file is {self.file_name}
+2025-11-04 12:17:35,621 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:17:47,791 - __main__ - ERROR - Error occurred while downloading the csv file
+2025-11-04 12:17:47,800 - __main__ - INFO - Data Ingestion process ended
+2025-11-04 12:19:57,767 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:19:57,768 - __main__ - INFO - Data Ingestion started with {self.bucket_name} and file is {self.file_name}
+2025-11-04 12:19:57,768 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:20:09,744 - __main__ - ERROR - Error occurred while downloading the csv file
+2025-11-04 12:20:09,745 - __main__ - INFO - Data Ingestion process ended
+2025-11-04 12:21:48,704 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:21:48,704 - __main__ - INFO - Data Ingestion started with {self.bucket_name} and file is {self.file_name}
+2025-11-04 12:21:48,704 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:22:00,830 - __main__ - ERROR - Error occurred while downloading the csv file
+2025-11-04 12:22:00,830 - __main__ - ERROR - CustomException : 'DefaultCredentialsError' object has no attribute 'exc_info'
+2025-11-04 12:22:00,830 - __main__ - INFO - Data Ingestion process ended
+2025-11-04 12:24:02,561 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:24:02,562 - __main__ - INFO - Data Ingestion started with {self.bucket_name} and file is {self.file_name}
+2025-11-04 12:24:02,562 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:24:14,554 - __main__ - ERROR - Error occurred while downloading the csv file
+2025-11-04 12:24:14,555 - __main__ - ERROR - CustomException : Error: Failed to download csv file | File: D:\1-Personal\MLOps-Project\src\data_ingestion.py | Line: 25
+2025-11-04 12:24:14,555 - __main__ - INFO - Data Ingestion process ended
+2025-11-04 12:25:43,869 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:25:43,870 - __main__ - INFO - Data Ingestion started with {self.bucket_name} and file is {self.file_name}
+2025-11-04 12:25:43,870 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:25:45,605 - __main__ - ERROR - Error occurred while downloading the csv file
+2025-11-04 12:25:45,605 - __main__ - ERROR - CustomException : Error: Failed to download csv file | File: D:\1-Personal\MLOps-Project\src\data_ingestion.py | Line: 25
+2025-11-04 12:25:45,607 - __main__ - INFO - Data Ingestion process ended
+2025-11-04 12:27:31,316 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:27:31,316 - __main__ - INFO - Data Ingestion started with {self.bucket_name} and file is {self.file_name}
+2025-11-04 12:27:31,317 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:27:32,746 - __main__ - ERROR - Error occurred while downloading the csv file
+2025-11-04 12:27:32,746 - __main__ - ERROR - CustomException : Error: Failed to download csv file | File: d:\1-Personal\MLOps-Project\src\data_ingestion.py | Line: 25
+2025-11-04 12:27:32,746 - __main__ - INFO - Data Ingestion process ended
+2025-11-04 12:31:09,628 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:31:09,629 - __main__ - INFO - Data Ingestion started with my_bucket75 and file is train.csv
+2025-11-04 12:31:09,629 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:31:14,746 - __main__ - ERROR - Error occurred while downloading the csv file
+2025-11-04 12:31:14,746 - __main__ - ERROR - CustomException : Error: Failed to download csv file | File: D:\1-Personal\MLOps-Project\src\data_ingestion.py | Line: 25
+2025-11-04 12:31:14,746 - __main__ - INFO - Data Ingestion process ended
+2025-11-04 12:43:43,800 - utils.common_functions - INFO - Successfully read YAML file
+2025-11-04 12:43:43,800 - __main__ - INFO - Data Ingestion started with my_bucket75 and file is train.csv
+2025-11-04 12:43:43,800 - __main__ - INFO - Data Ingestion process started
+2025-11-04 12:43:50,168 - __main__ - INFO - RAW file is successfully downloaded to artifacts/raw\raw.csv
+2025-11-04 12:43:50,169 - __main__ - INFO - Starting train test split
+2025-11-04 12:43:50,448 - __main__ - INFO - Train data saved to artifacts/raw\train.csv 
+2025-11-04 12:43:50,448 - __main__ - INFO - Test data saved to artifacts/raw\test.csv 
+2025-11-04 12:43:50,452 - __main__ - INFO - Data Ingestion process completed successfully
+2025-11-04 12:43:50,452 - __main__ - INFO - Data Ingestion process ended
