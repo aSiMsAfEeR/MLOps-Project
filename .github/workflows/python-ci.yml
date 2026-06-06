@@ -1,0 +1,35 @@
+name: Python CI
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Import project modules
+        run: |
+          python - <<'PY'
+          import src.data_ingestion
+          import src.logger
+          import utils.common_functions
+          print("Imports completed")
+          PY
+
